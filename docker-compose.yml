@@ -3,7 +3,7 @@ version: "3.7"
 services:
   mysql:
     image: mysql:8.0
-    container_name:MySQL
+    container_name: MySQL
     ports:
       - "3306:3306"
     volumes:
@@ -15,7 +15,7 @@ services:
 
   mongo:
     image: mongo:latest
-    container_name:mongo
+    container_name: mongo
     ports:
       - "27017:27017"
     volumes:
