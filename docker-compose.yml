@@ -10,7 +10,7 @@ services:
       - ./data/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: "youtube"
-      TZ: 'Asia/Taiwan'
+      
 
   mongo:
     image: mongo:latest
